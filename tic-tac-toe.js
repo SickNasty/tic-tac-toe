@@ -34,6 +34,51 @@ function hue(){
   circle.setAttribute("cy",115)
   circle.setAttribute("r",15)
   circle.setAttribute("fill","blue")
-  var canvas = document.getElmentById("game-board")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+function four20(){
+  var circle = document.createElementNS(namespace,"circle")
+  circle.setAttribute("cx",175)
+  circle.setAttribute("cy",115)
+  circle.setAttribute("r",15)
+  circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+function icecube(){
+  var circle = document.createElementNS(namespace,"circle")
+  circle.setAttribute("cx",235)
+  circle.setAttribute("cy",115)
+  circle.setAttribute("r",15)
+  circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+function checkyoself(){
+  var circle = document.createElementNS(namespace,"circle")
+  circle.setAttribute("cx",115)
+  circle.setAttribute("cy",175)
+  circle.setAttribute("r",15)
+  circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+function heltahskeltah(){
+  var circle = document.createElementNS(namespace,"circle")
+  circle.setAttribute("cx",175)
+  circle.setAttribute("cy",175)
+  circle.setAttribute("r",15)
+  circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+}
+function snoop(){
+  var circle = document.createElementNS(namespace,"circle")
+  circle.setAttribute("cx",235)
+  circle.setAttribute("cy",175)
+  circle.setAttribute("r",15)
+  circle.setAttribute("fill","blue")
+  var canvas = document.getElementById("game-board")
   canvas.appendChild(circle)
 }
